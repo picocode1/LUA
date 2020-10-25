@@ -1,3 +1,4 @@
+--Download the files https://github.com/picocode1/LUA/blob/main/menu.zip
 local combobox = ui.new_combobox('LUA', 'B', 'Choose menu', 'Nothing', 'Double Inject', 'gamesense 2018', 'Aimware V5', 'Neverlose', 'Onetapv2', 'OTC3', 'OTV4', 'LuckyCharms', 'DevCore', 'Fanta', 'Fatality Crack', 'Lethality', 'Nanohook', 'Nanosense', 'Nemesis', 'Pandora', 'Pandora2', 'Weave')
 local hotkey = ui.new_hotkey('LUA', 'B', 'Open Menu')
 local mousecheckbox = ui.new_checkbox('LUA', 'B', 'Move with left mouse')
