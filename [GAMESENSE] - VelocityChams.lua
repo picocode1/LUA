@@ -47,4 +47,4 @@ function VelocityChams()
 		end
 	end
 end
-client.set_event_callback('paint', VelocityChams)
+client.set_event_callback('paint_ui', VelocityChams)
