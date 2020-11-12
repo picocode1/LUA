@@ -7,6 +7,8 @@ Here you can find all the gamesense lua's i made public.
 My public LUA's for [gamesense](https://gamesense.pub/forums/).
 
 ```bash
+[GAMESENSE] - VelocityChams.lua
+	This lua will will dynamically change your fake's alpha 
 
 [GAMESENSE] - CursorESP.lua
 	This lua will make it so you have ESP on your cursor
