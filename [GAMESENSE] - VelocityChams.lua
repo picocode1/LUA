@@ -5,8 +5,8 @@ local speedindicator = ui.new_checkbox('LUA', 'a', 'Speed Indicator')
 local indicatoralpha = ui.new_checkbox('LUA', 'a', 'Change indicator alpha')
 
 function VelocityChams()
-	local x, y = entity.get_prop( entity.get_local_player(), 'm_vecVelocity')
-	local speed = x ~= nil and math.floor(math.sqrt( x * x + y * y + 0.5 )) or 0
+    local x, y = entity.get_prop( entity.get_local_player(), 'm_vecVelocity')
+    local speed = x ~= nil and math.floor(math.sqrt( x * x + y * y + 0.5 )) or 0
     local r, g, b, a = ui.get(color)
     
     if ui.get(speedindicator) then
