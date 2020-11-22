@@ -39,6 +39,9 @@ My public LUA's for [gamesense](https://gamesense.pub/forums/).
 	
 [GAMESENSE] - Random Trashtalk.lua
 	This lua will trashtalk when you hit someone
+	
+[GAMESENSE] - FreezeTime.lua
+	This lua will enable antiaim on load
 ```
 
 
