@@ -42,6 +42,7 @@ My public LUA's for [gamesense](https://gamesense.pub/forums/).
 	
 [GAMESENSE] - FreezeTime.lua
 	This lua will enable antiaim on load
+	
 [GAMESENSE] - PanoramaButton.lua
 	This lua will show a button at main menu to run commands or to join a server.
 ```
