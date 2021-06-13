@@ -8,7 +8,7 @@ My public LUA's for [gamesense](https://gamesense.pub/forums/).
 
 ```bash
 [GAMESENSE] - VelocityChams.lua
-	This lua will will dynamically change your fake's alpha 
+	This lua will will dynamically change your fake alpha 
 
 [GAMESENSE] - CursorESP.lua
 	This lua will make it so you have ESP on your cursor
@@ -35,7 +35,7 @@ My public LUA's for [gamesense](https://gamesense.pub/forums/).
 	This lua will turn off money esp unless you press TAB
 	
 [GAMESENSE] - Music.lua
-	This lua will open RadioURL to steamcommunity and plays radio's
+	This lua will open RadioURL to steamcommunity and plays radios
 	
 [GAMESENSE] - Random Trashtalk.lua
 	This lua will trashtalk when you hit someone
