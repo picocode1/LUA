@@ -17,7 +17,7 @@ My public LUA's for [gamesense](https://gamesense.pub/forums/).
 	Send messages via gamesense lua to webhook
 	
 [GAMESENSE] - HTTPDeathsay.lua
-	This lua will say in the gamechat "1v1 me irl in `your city` you `random curseword`"
+	This lua will say in the gamechat -1v1 me irl in [your city] you [random curseword]-
 	
 [GAMESENSE] - LegitLUA.lua
 	This lua will improve a few legit features and add some
@@ -45,6 +45,9 @@ My public LUA's for [gamesense](https://gamesense.pub/forums/).
 	
 [GAMESENSE] - PanoramaButton.lua
 	This lua will show a button at main menu to run commands or to join a server.
+	
+[GAMESENSE] - Autoload.lua
+	Will load your config automatically on startup 
 ```
 
 
