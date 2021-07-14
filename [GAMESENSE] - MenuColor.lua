@@ -1,7 +1,9 @@
 local menu_ref = ui.reference("Misc", "Settings", "Menu color")
-local colors = ui.new_color_picker("CONFIG", "Presets", "Menu color per config", 255, 255, 255, 255)
-
-function paint()
-    ui.set(menu_ref, ui.get(colors))
+local label = ui.new_label("CONFIG", "Presets", "Menu Color")
+local colors = ui.new_color_picker("CONFIG", "Presets", "Menu Color", 224 , 7, 224, 242)
+ui.set(colors, 224 , 255 , 255, 255)
+local function update(s)
+	ui.set(menu_ref, ui.get(s))
 end
-client.set_event_callback("paint_ui", paint)
+update(colors)
+ui.set_callback(colors, update)
