@@ -21,11 +21,7 @@ local second = {
 	' death',
     ' cheat'
 }
-local function aim_hit()
-	local sendconsole = client.exec
-    local _first = first[math.random(0, #first)]
-    local _second = second[math.random(0, #second)]   
-    local say = 'say ' .. _first .. _second
-    sendconsole(say)
-end
-client.set_event_callback('aim_hit', aim_hit)
+
+client.set_event_callback('aim_hit', function()
+    client.exec('say ' ..first[math.random(0, #first)] .. second[math.random(0, #second)] )
+end)
